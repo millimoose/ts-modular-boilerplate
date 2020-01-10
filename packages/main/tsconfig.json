@@ -1,0 +1,21 @@
+{
+  "extends": "../tsconfig.base",
+  "include": [
+    "**/*.ts"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "rootDir": "./src",
+    "outDir": "./out-tsc",
+    "baseUrl": ".",
+    "paths": {
+      "@": ["./src"],
+      "@/*": ["./src/*"]
+    }
+  },
+  "references": [
+    {
+      "path": "../lib/src/foo"
+    }
+  ]
+}

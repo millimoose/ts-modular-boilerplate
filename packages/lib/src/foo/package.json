@@ -1,0 +1,12 @@
+{
+  "name": "@blah/foo",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@blah/bar": "0.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
+}

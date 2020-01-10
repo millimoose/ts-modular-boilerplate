@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "extends": "../tsconfig.base",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./out-tsc",
+    "composite": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true
+  }
+}
