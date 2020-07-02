@@ -10,7 +10,7 @@
   "devDependencies": {
     "tsconfig-paths": "^3.9.0",
     "ts-node": "^8.6.0",
-    "typescript": "^3.8.3"
+    "typescript": "^3.9.6"
   },
   "scripts": {
     "start": "TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\"}' node -r ts-node/register -r tsconfig-paths/register src/index"
