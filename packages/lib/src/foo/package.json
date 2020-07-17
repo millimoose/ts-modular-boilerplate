@@ -7,6 +7,6 @@
     "@blah/bar": "0.0.0"
   },
   "devDependencies": {
-    "typescript": "^3.8.3"
+    "typescript": "^3.9.7"
   }
 }
